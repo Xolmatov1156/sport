@@ -1,0 +1,153 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/back.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-list {
+  width: 700px;
+  height: 340px;
+  background-color: aqua;
+  margin-top: 400px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 250px;
+}
+
+.wrapper-list-title {
+  color: crimson;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.wrapper-list-main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.check-design-first {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid crimson;
+}
+
+.input-check:checked ~ .check-design-first {
+  background: url(../images/tenis.jpeg);
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: center center;
+  background-color: white;
+}
+
+.list-text {
+  color: crimson;
+  font-family: sans-serif;
+}
+
+.check-design-second {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid crimson;
+}
+
+.input-check:checked ~ .check-design-second {
+  background: url(../images/basketball.jpeg);
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  background-position: center center;
+  background-color: white;
+}
+
+.check-design-third {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid crimson;
+}
+
+.input-check:checked ~ .check-design-third {
+  background: url(../images/volleyball.jpeg);
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  background-position: center center;
+  background-color: white;
+}
+
+.check-design-forth {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid gray;
+  background: url(../images/hackey.webp);
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  background-position: center center;
+  background-color: white;
+}
+
+.btn {
+  width: 250px;
+  height: 30px;
+  margin: 0px auto;
+  color: white;
+  background-color: crimson;
+  border: 1px transparent;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: crimson;
+  background-color: white;
+  border: 1px solid crimson;
+}
+
+.forth-text {
+  color: rgb(188, 182, 182);
+  font-family: sans-serif;
+}/*# sourceMappingURL=main.css.map */
